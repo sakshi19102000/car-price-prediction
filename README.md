@@ -1,11 +1,11 @@
-# 🚗 Car Price Prediction
+# Car Price Prediction
 
 A Machine Learning project to predict car selling prices based on key features.  
-Built with **Python**, **scikit-learn**, and (optional) **Streamlit** for a simple web app.
+Built with **Python**, **scikit-learn**, and  **Streamlit** for a simple web app.
 
 ---
 
-## 📁 Repository Structure (suggested)
+## Repository Structure 
 ```
 car-price-prediction/
 ├─ 01-data_cleaning/           # notebooks or scripts for cleaning
@@ -19,17 +19,15 @@ car-price-prediction/
 └─ README.md
 ```
 
-> Tip: It's okay if your current names are slightly different (e.g., "03-implimentation"). You can keep them, or rename to the above for consistency.
+
+
+## Model
+- Pipeline: preprocessing → feature engineering → **Random Forest Regressor** 
+
 
 ---
 
-## 🧠 Model
-- Typical pipeline: preprocessing → feature engineering → **Random Forest Regressor** (or similar)
-- Metrics: R² / MAE / RMSE (add yours here)
-
----
-
-## ⚙️ Setup
+## Setup
 
 1) **Clone** this repo
 ```bash
@@ -37,7 +35,7 @@ git clone https://github.com/<your-username>/car-price-prediction.git
 cd car-price-prediction
 ```
 
-2) **Create venv** (optional but recommended)
+2) **Create venv** 
 ```bash
 python -m venv .venv
 # Windows
@@ -53,39 +51,28 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Streamlit App (optional)
-If you have the Streamlit app in `car_price_app` or `app.py`:
+## Run the Streamlit App
+If you have the Streamlit app in `car_price_app`
 ```bash
-streamlit run app.py
-# or
-streamlit run car_price_app/app.py
+
+streamlit run car_price_app.py
 ```
 
 ---
 
-## 📓 Run the Notebooks
-Open the notebooks in Jupyter or VS Code and run cells in order.  
-Make sure the `data/` paths inside notebooks point to the correct location.
 
+
+## Dataset
+-The cleaned dataset used in this project is included in the repository:  
+`cleaned_car_data.xlsx`
+
+It contains 8 features (independent variables) and 1 target variable (selling price).  
 ---
 
-## 📚 Dataset
-- Describe your data source here (e.g., Kaggle link or local CSV)
-- If you cannot share the dataset, provide a link or a small sample
 
----
-
-## 🖼️ Screenshots (optional)
-Add one or two images of your EDA plots or app UI here.
-
----
-
-## ✍️ Author
+## Author
 **Sakshi Parit**  
-LinkedIn: <add your profile link>  
-Email: <add your email>
+LinkedIn: <https://www.linkedin.com/in/sakshi-parit>  
+Email: <sakshiparit1920@gmail.com>
 
----
 
-## 📄 License
-This project is for learning/teaching purposes. You may add an MIT License if you want to make it reusable.
